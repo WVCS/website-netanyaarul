@@ -1,9 +1,50 @@
-<html>
+body {
+	background-color: lightcoral;
+}
 
+img {
+	width: 25%;
+}
 
+img:hover {
+	border: dotted 10px pink;
+	width: 400px;
+	border-radius: 70%;
+}
 
+h2 {
+	text-decoration: underline wavy pink 7px;
+	color: lightgoldenrodyellow;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	text-shadow: 2px 2px 5px pink;
+	font-size: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
 
+ul li {
+  float: left;
+  border-right:1px solid #bbbbbb;
+}
 
+ul li:last-child {
+  border-right: none;
+}
 
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-</html>
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
